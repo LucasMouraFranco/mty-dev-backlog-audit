@@ -1,0 +1,73 @@
+urance ×4, manufacturer)</a></h3>
+  <p class="meta">Design Website MTY Collision · Tiago · 2026-08-12 14:32 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-351"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-351 duplicated tasks — luciano lima sequence investigation branch may relate to duplicated tasks possible / weak todo no priority t3code/inspect-sequence-timezone-scheduling ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-351/duplicated-tasks" target="_blank" rel="noopener">MTY-351</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-351/duplicated-tasks" target="_blank" rel="noopener">Duplicated tasks</a></h3>
+  <p class="meta">— · Luciano Lima · 2026-08-10 14:57 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>t3code/inspect-sequence-timezone-scheduling</code></div>
+    <p class="match-note">Sequence investigation branch may relate to duplicated tasks</p>
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-320"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-320 issue 11 — w13–w15 editoriais (guia, apoio ×3, legal ×3) design website mty collision tiago  no open branch match todo low ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-320/issue-11-w13-w15-editoriais-guia-apoio-3-legal-3" target="_blank" rel="noopener">MTY-320</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-low">Low</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-320/issue-11-w13-w15-editoriais-guia-apoio-3-legal-3" target="_blank" rel="noopener">Issue 11 — W13–W15 Editoriais (guia, apoio ×3, legal ×3)</a></h3>
+  <p class="meta">Design Website MTY Collision · Tiago · 2026-07-28 13:01 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-321"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-321 issue 12 — w17 404 + revisão final design website mty collision tiago  no open branch match todo low ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-321/issue-12-w17-404-revisao-final" target="_blank" rel="noopener">MTY-321</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-low">Low</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-321/issue-12-w17-404-revisao-final" target="_blank" rel="noopener">Issue 12 — W17 404 + revisão final</a></h3>
+  <p class="meta">Design Website MTY Collision · Tiago · 2026-07-28 13:01 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-319"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-319 issue 10 — w3–w5 institucionais (about, contact, g
