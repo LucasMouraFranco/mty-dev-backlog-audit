@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MTY Dev Team — Backlog &amp; Todo Audit</title>
+<style>
+:root {
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --text: #1a1d23;
+  --muted: #5c6570;
+  --border: #e2e6eb;
+  --border-soft: #eceff3;
+  --link: #1a5fb4;
+  --shadow: 0 1px 2px rgba(16,24,40,.04), 0 1px 3px rgba(16,24,40,.06);
+  --todo: #1a7f37;
+  --todo-bg: #e8f7ed;
+  --backlog: #6e5a9e;
+  --backlog-bg: #f1ecfb;
+  --strong: #0d6e3f;
+  --strong-bg: #e6f6ee;
+  --strong-border: #9fd9b8;
+  --weak: #8a6200;
+  --weak-bg: #fff6db;
+  --weak-border: #f0d48a;
+  --none: #5c6570;
+  --none-bg: #f0f2f4;
+  --none-border: #d8dde3;
+  --chip: #eef0f3;
+  --chip-active: #1a1d23;
+  --chip-active-text: #fff;
+  --input-bg: #fff;
+  --focus: #1a5fb4;
+  --urgent: #b42318;
+  --high: #b54708;
+  --medium: #175cd3;
+  --low: #667085;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1217;
+    --surface: #1a1f27;
+    --text: #e6edf3;
+    --muted: #9aa4b2;
+    --border: #2d333b;
+    --border-soft: #252b33;
+    --link: #6cb6ff;
+    --shadow: 0 1px 2px rgba(0,0,0,.35);
+    --todo: #3fb950;
+    --todo-bg: #12261a;
+    --backlog: #b794f6;
+    --backlog-bg: #231a36;
+    --strong: #3fb950;
+    --strong-bg: #12261a;
+    --strong-border: #1f4a2e;
+    --weak: #d4a72c;
+    --weak-bg: #2a2108;
+    --weak-border: #4a3a10;
+    --none: #8b949e;
+    --none-bg: #21262d;
+    --none-border: #30363d;
+    --chip: #21262d;
+    --chip-active: #e6edf3;
+    --chip-active-text: #0f1217;
+    --input-bg: #12161c;
+    --focus: #6cb6ff;
+    --urgent: #f85149;
+    --high: #d29922;
+    --medium: #58a6ff;
+    --low: #8b949e;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+  margin: 0;
+  padding: 28px 20px 48px;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 6px;
+}
+h2 {
+  font-size: 1.05rem;
+  font-weight: 650;
+  margin: 0 0 12px;
+  letter-spacing: -0.01em;
+}
+.sub {
+  color: var(--muted);
+  margin: 0 0 22px;
+  font-size: 0.95rem;
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.muted { color: var(--muted); }
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.82em;
+  background: color-mix(in srgb, var(--border) 55%, transparent);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+/* Summary */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin-bottom: 18px;
+}
+@media (max-width: 800px) {
+  .stats { grid-template-columns: repeat(3, 1fr); }
+}
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 12px;
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+.stat .n { font-size: 1.65rem; font-weight: 700; line-height: 1.1; letter-spacing: -0.03em; }
+.stat .l { color: var(--muted); font-size: 0.78rem; margin-top: 4px; }
+
+.rules {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 20px;
+  box-shadow: var(--shadow);
+}
+.rules strong { color: var(--text); font-weight: 600; }
+
+/* Controls */
+.controls {
