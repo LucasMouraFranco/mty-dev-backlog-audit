@@ -1,0 +1,55 @@
+atch="weak"
+  data-search="mty-403 build the new mobile supplies request shop features lucas moura supplies branches are mty-368, not 403 possible / weak todo urgent lucas/mty-368-inventory-bins-supplies  lucas/mty-368-supply-photos ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-403/build-the-new-mobile-supplies-request" target="_blank" rel="noopener">MTY-403</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-urgent">Urgent</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-403/build-the-new-mobile-supplies-request" target="_blank" rel="noopener">Build the new mobile supplies request</a></h3>
+  <p class="meta">Shop Features · Lucas Moura · 2026-09-14 16:41 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>lucas/mty-368-inventory-bins-supplies</code> <code>lucas/mty-368-supply-photos</code></div>
+    <p class="match-note">Supplies branches are MTY-368, not 403</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-399"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-399 move our workflows to the new emails email system lucas moura email inbox prototype (in progress) — workflow migration not clearly in an open pr possible / weak todo high prototype/email-inbox ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-399/move-our-workflows-to-the-new-emails" target="_blank" rel="noopener">MTY-399</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-399/move-our-workflows-to-the-new-emails" target="_blank" rel="noopener">Move our workflows to the new emails</a></h3>
+  <p class="meta">Email System · Lucas Moura · 2026-09-14 16:35 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>prototype/email-inbox</code></div>
+    <p class="match-note">Email inbox prototype (In Progress) — workflow migration not clearly in an open PR</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-398"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-398 create the new parts and insurance emails email system lucas moura email inbox prototype — mailbox creation is mostly ops possible / weak todo high prototype/email-inbox ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-398/create-the-new-parts-and-insurance-emails" target="_blank" rel="noopener">MTY-398</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-398/create-the-new-parts-and-insurance-emails" target="_blank" rel="noopener">Create the new parts and insurance emails</a></h3>
+  <p class="meta">Email System · Lucas Moura · 2026-09-14 16:33 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>prototype/email-inbox</code></div>
+    <p class="match-note">Email inbox prototype — mailbox creation is mostly ops
