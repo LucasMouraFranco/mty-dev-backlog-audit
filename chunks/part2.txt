@@ -1,0 +1,522 @@
+ssue-title"><a href="https://linear.app/mty-collision/issue/MTY-319/issue-10-w3-w5-institucionais-about-contact-gallery" target="_blank" rel="noopener">Issue 10 — W3–W5 Institucionais (about, contact, gallery)</a></h3>
+  <p class="meta">Design Website MTY Collision · Tiago · 2026-07-28 13:01 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-305"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-305 deal value run mty on mty hub, retire paid tools lucas moura  no open branch match todo low ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-305/deal-value" target="_blank" rel="noopener">MTY-305</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-low">Low</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-305/deal-value" target="_blank" rel="noopener">Deal value</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-07-27 13:10 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-273"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-273 defer quick-create picker bulk load on deal detail deal detail — lazy load &amp; pagination luciano lima lazy-load related branches; no open pr with id possible / weak todo high on-demand-data-loading  deal-relations-bulk-load-report ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-273/defer-quick-create-picker-bulk-load-on-deal-detail" target="_blank" rel="noopener">MTY-273</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-273/defer-quick-create-picker-bulk-load-on-deal-detail" target="_blank" rel="noopener">Defer quick-create picker bulk load on deal detail</a></h3>
+  <p class="meta">Deal Detail — Lazy Load &amp; Pagination · Luciano Lima · 2026-07-09 15:23 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>on-demand-data-loading</code> <code>deal-relations-bulk-load-report</code></div>
+    <p class="match-note">Lazy-load related branches; no open PR with ID</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-272"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-272 documents tab: reuse shared cache + infinite scroll (page size 10) deal detail — lazy load &amp; pagination luciano lima lazy-load related branches; no open pr with id possible / weak todo high on-demand-data-loading  deal-relations-bulk-load-report ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-272/documents-tab-reuse-shared-cache-infinite-scroll-page-size-10" target="_blank" rel="noopener">MTY-272</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-272/documents-tab-reuse-shared-cache-infinite-scroll-page-size-10" target="_blank" rel="noopener">Documents tab: reuse shared cache + infinite scroll (page size 10)</a></h3>
+  <p class="meta">Deal Detail — Lazy Load &amp; Pagination · Luciano Lima · 2026-07-09 15:23 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>on-demand-data-loading</code> <code>deal-relations-bulk-load-report</code></div>
+    <p class="match-note">Lazy-load related branches; no open PR with ID</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-271"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-271 activities tab: reuse shared cache + infinite scroll (page size 30) deal detail — lazy load &amp; pagination luciano lima lazy-load related branches; no open pr with id possible / weak todo high on-demand-data-loading  deal-relations-bulk-load-report ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-271/activities-tab-reuse-shared-cache-infinite-scroll-page-size-30" target="_blank" rel="noopener">MTY-271</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-271/activities-tab-reuse-shared-cache-infinite-scroll-page-size-30" target="_blank" rel="noopener">Activities tab: reuse shared cache + infinite scroll (page size 30)</a></h3>
+  <p class="meta">Deal Detail — Lazy Load &amp; Pagination · Luciano Lima · 2026-07-09 15:23 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>on-demand-data-loading</code> <code>deal-relations-bulk-load-report</code></div>
+    <p class="match-note">Lazy-load related branches; no open PR with ID</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-270"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-270 summary tab: infinite scroll from shared cache (page size 30) deal detail — lazy load &amp; pagination luciano lima lazy-load related branches; no open pr with id possible / weak todo high on-demand-data-loading  deal-relations-bulk-load-report ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-270/summary-tab-infinite-scroll-from-shared-cache-page-size-30" target="_blank" rel="noopener">MTY-270</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-270/summary-tab-infinite-scroll-from-shared-cache-page-size-30" target="_blank" rel="noopener">Summary tab: infinite scroll from shared cache (page size 30)</a></h3>
+  <p class="meta">Deal Detail — Lazy Load &amp; Pagination · Luciano Lima · 2026-07-09 15:23 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>on-demand-data-loading</code> <code>deal-relations-bulk-load-report</code></div>
+    <p class="match-note">Lazy-load related branches; no open PR with ID</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-269"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-269 notes tab: reuse shared cache + infinite scroll (page size 30) deal detail — lazy load &amp; pagination luciano lima lazy-load related branches; no open pr with id possible / weak todo high on-demand-data-loading  deal-relations-bulk-load-report ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-269/notes-tab-reuse-shared-cache-infinite-scroll-page-size-30" target="_blank" rel="noopener">MTY-269</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-269/notes-tab-reuse-shared-cache-infinite-scroll-page-size-30" target="_blank" rel="noopener">Notes tab: reuse shared cache + infinite scroll (page size 30)</a></h3>
+  <p class="meta">Deal Detail — Lazy Load &amp; Pagination · Luciano Lima · 2026-07-09 15:23 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>on-demand-data-loading</code> <code>deal-relations-bulk-load-report</code></div>
+    <p class="match-note">Lazy-load related branches; no open PR with ID</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-274"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-274 deal search with partial data + qa regression deal detail — lazy load &amp; pagination luciano lima lazy-load related branches; no open pr with id possible / weak todo high on-demand-data-loading  deal-relations-bulk-load-report ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-274/deal-search-with-partial-data-qa-regression" target="_blank" rel="noopener">MTY-274</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-274/deal-search-with-partial-data-qa-regression" target="_blank" rel="noopener">Deal search with partial data + QA regression</a></h3>
+  <p class="meta">Deal Detail — Lazy Load &amp; Pagination · Luciano Lima · 2026-07-06 14:30 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>on-demand-data-loading</code> <code>deal-relations-bulk-load-report</code></div>
+    <p class="match-note">Lazy-load related branches; no open PR with ID</p>
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-249"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-249 #12 retention job + storage sizing notes mty hub audit system luciano lima  no open branch match todo medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-249/12-retention-job-storage-sizing-notes" target="_blank" rel="noopener">MTY-249</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-249/12-retention-job-storage-sizing-notes" target="_blank" rel="noopener">#12 Retention job + storage sizing notes</a></h3>
+  <p class="meta">MTY Hub Audit System · Luciano Lima · 2026-07-01 16:24 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-250"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-250 [spec] mty hub audit system — scope and acceptance criteria mty hub audit system luciano lima  no open branch match todo medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-250/spec-mty-hub-audit-system-scope-and-acceptance-criteria" target="_blank" rel="noopener">MTY-250</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-250/spec-mty-hub-audit-system-scope-and-acceptance-criteria" target="_blank" rel="noopener">[Spec] MTY Hub audit system — scope and acceptance criteria</a></h3>
+  <p class="meta">MTY Hub Audit System · Luciano Lima · 2026-07-01 16:24 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-216"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-216 auto-update job status to queued when moving across columns run mty on mty hub, retire paid tools —  no open branch match todo medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-216/auto-update-job-status-to-queued-when-moving-across-columns" target="_blank" rel="noopener">MTY-216</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-216/auto-update-job-status-to-queued-when-moving-across-columns" target="_blank" rel="noopener">Auto-update job status to queued when moving across columns</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · — · 2026-06-27 16:32 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-214"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-214 automation — block job by insurance when supplement is waiting run mty on mty hub, retire paid tools —  no open branch match todo medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-214/automation-block-job-by-insurance-when-supplement-is-waiting" target="_blank" rel="noopener">MTY-214</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-214/automation-block-job-by-insurance-when-supplement-is-waiting" target="_blank" rel="noopener">Automation — Block job by insurance when supplement is waiting</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · — · 2026-06-27 16:29 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-153"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-153 design run mty on mty hub, retire paid tools tiago  no open branch match todo no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-153/design" target="_blank" rel="noopener">MTY-153</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-153/design" target="_blank" rel="noopener">Design</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-12 15:57 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-91"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-91 generate car sheet during car intake workflow — lucas moura  no open branch match backlog medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-91/generate-car-sheet-during-car-intake-workflow" target="_blank" rel="noopener">MTY-91</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-91/generate-car-sheet-during-car-intake-workflow" target="_blank" rel="noopener">Generate car sheet during car intake workflow</a></h3>
+  <p class="meta">— · Lucas Moura · 2026-09-14 16:55 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-365"
+  data-state="backlog"
+  data-match="weak"
+  data-search="mty-365 phase 3: contract — drop jobs.payment_type shopmonkey integration luciano lima payment-type work appears in #657, but phase 3 column drop is later cleanup possible / weak backlog no priority #657 lucas/mty-381-estimate-of-record-project">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-365/phase-3-contract-drop-jobspayment-type" target="_blank" rel="noopener">MTY-365</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-365/phase-3-contract-drop-jobspayment-type" target="_blank" rel="noopener">Phase 3: Contract — drop jobs.payment_type</a></h3>
+  <p class="meta">Shopmonkey Integration · Luciano Lima · 2026-09-05 08:07 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><a class="pr-link" href="https://github.com/MTY-Collision/MTY-Hub/pull/657" target="_blank" rel="noopener">#657</a> <span class="branch">(lucas/mty-381-estimate-of-record-project)</span></div>
+    <p class="match-note">Payment-type work appears in #657, but Phase 3 column drop is later cleanup</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-144"
+  data-state="backlog"
+  data-match="weak"
+  data-search="mty-144 transport &amp; logistics run mty on mty hub, retire paid tools lucas moura transport theme overlap with #679 (mty-395); epic-level, not a clear implement match possible / weak backlog low #679 t3code/add-transport-role-flow">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-144/transport-and-logistics" target="_blank" rel="noopener">MTY-144</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-low">Low</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-144/transport-and-logistics" target="_blank" rel="noopener">Transport &amp; Logistics</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-08-28 00:30 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><a class="pr-link" href="https://github.com/MTY-Collision/MTY-Hub/pull/679" target="_blank" rel="noopener">#679</a> <span class="branch">(t3code/add-transport-role-flow)</span></div>
+    <p class="match-note">Transport theme overlap with #679 (MTY-395); epic-level, not a clear implement match</p>
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-333"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-333 convert photos to smaller size when uploading shop features lucas moura  no open branch match backlog medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-333/convert-photos-to-smaller-size-when-uploading" target="_blank" rel="noopener">MTY-333</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-333/convert-photos-to-smaller-size-when-uploading" target="_blank" rel="noopener">Convert photos to smaller size when uploading</a></h3>
+  <p class="meta">Shop Features · Lucas Moura · 2026-08-21 11:50 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-143"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-143 inventory run mty on mty hub, retire paid tools lucas moura  no open branch match backlog medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-143/inventory" target="_blank" rel="noopener">MTY-143</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-143/inventory" target="_blank" rel="noopener">Inventory</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-08-21 00:40 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-350"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-350 track ordering, eta, delivery, and receiving parts feature —  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-350/track-ordering-eta-delivery-and-receiving" target="_blank" rel="noopener">MTY-350</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-350/track-ordering-eta-delivery-and-receiving" target="_blank" rel="noopener">Track ordering, ETA, delivery, and receiving</a></h3>
+  <p class="meta">Parts Feature · — · 2026-08-10 14:44 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-349"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-349 define purchase-order headers and line items parts feature —  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-349/define-purchase-order-headers-and-line-items" target="_blank" rel="noopener">MTY-349</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-349/define-purchase-order-headers-and-line-items" target="_blank" rel="noopener">Define purchase-order headers and line items</a></h3>
+  <p class="meta">Parts Feature · — · 2026-08-10 14:44 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-348"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-348 create purchase orders from selected quotes parts feature —  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-348/create-purchase-orders-from-selected-quotes" target="_blank" rel="noopener">MTY-348</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-348/create-purchase-orders-from-selected-quotes" target="_blank" rel="noopener">Create purchase orders from selected quotes</a></h3>
+  <p class="meta">Parts Feature · — · 2026-08-10 14:44 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-347"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-347 upload and match invoices; record payment status parts feature —  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-347/upload-and-match-invoices-record-payment-status" target="_blank" rel="noopener">MTY-347</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-347/upload-and-match-invoices-record-payment-status" target="_blank" rel="noopener">Upload and match invoices; record payment status</a></h3>
+  <p class="meta">Parts Feature · — · 2026-08-10 14:43 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-141"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-141 role permissions run mty on mty hub, retire paid tools lucas moura  no open branch match backlog high ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-141/role-permissions" target="_blank" rel="noopener">MTY-141</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-141/role-permissions" target="_blank" rel="noopener">Role permissions</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-07-17 00:55 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-280"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-280 insurance tab — lucas moura  no open branch match backlog low ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-280/insurance-tab" target="_blank" rel="noopener">MTY-280</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-low">Low</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-280/insurance-tab" target="_blank" rel="noopener">Insurance tab</a></h3>
+  <p class="meta">— · Lucas Moura · 2026-07-06 16:32 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-258"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-258 pin notes run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-258/pin-notes" target="_blank" rel="noopener">MTY-258</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-258/pin-notes" target="_blank" rel="noopener">Pin Notes</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-07-02 14:29 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-195"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-195 cancel fillout run mty on mty hub, retire paid tools lucas moura  no open branch match backlog high ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-195/cancel-fillout" target="_blank" rel="noopener">MTY-195</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-195/cancel-fillout" target="_blank" rel="noopener">Cancel Fillout</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-194"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-194 cancel airtable run mty on mty hub, retire paid tools lucas moura  no open branch match backlog high ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-194/cancel-airtable" target="_blank" rel="noopener">MTY-194</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-194/cancel-airtable" target="_blank" rel="noopener">Cancel Airtable</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid
