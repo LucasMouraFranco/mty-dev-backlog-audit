@@ -1,0 +1,120 @@
+r(--weak-border); }
+.match-badge {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.match-strong { color: var(--strong); }
+.match-weak { color: var(--weak); }
+.match-none { color: var(--none); }
+.match-links {
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: baseline;
+  font-size: 0.9rem;
+}
+.pr-link { font-weight: 650; }
+.branch { color: var(--muted); font-size: 0.85em; }
+.match-note {
+  margin: 6px 0 0;
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+/* Hub PRs */
+.pr-list {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.pr-row {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 12px;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.pr-row:last-child { border-bottom: none; }
+.pr-num {
+  font-weight: 750;
+  font-size: 1rem;
+  padding-top: 2px;
+}
+.pr-title { font-weight: 600; margin-bottom: 4px; }
+.pr-meta { font-size: 0.85rem; color: var(--muted); margin-bottom: 6px; }
+.pr-ids { display: flex; flex-wrap: wrap; gap: 6px; }
+.id-in {
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--todo-bg);
+  color: var(--todo);
+}
+.id-out {
+  font-size: 0.8rem;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--none-bg);
+  color: var(--muted);
+}
+.other-list {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 8px 18px 12px;
+  margin: 0;
+  box-shadow: var(--shadow);
+}
+.other-list li { margin: 8px 0; font-size: 0.95rem; }
+.legend {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 10px 0 0;
+}
+footer {
+  margin-top: 28px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+}
+.empty {
+  color: var(--muted);
+  padding: 24px;
+  text-align: center;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>MTY Dev Team — Backlog &amp; Todo Audit</h1>
+  <p class="sub">Team: <strong>Dev Team</strong> (MTY) · Repo: <a href="https://github.com/MTY-Collision/MTY-Hub">MTY-Collision/MTY-Hub</a> · Generated <strong>2026-09-14 17:05 PT</strong><br>
+  Read-only audit — no Linear issues were marked Done.</p>
+
+  <div class="stats">
+    <div class="stat"><div class="n">68</div><div class="l">Backlog</div></div>
+    <div class="stat"><div class="n">22</div><div class="l">Todo</div></div>
+    <div class="stat"><div class="n">4</div><div class="l">Open PR may fix</div></div>
+    <div class="stat"><div class="n">18</div><div class="l">Possible / weak</div></div>
+    <div class="stat"><div class="n">68</div><div class="l">No open match</div></div>
+    <div class="stat"><div class="n">12</div><div class="l">Open Hub PRs</div></div>
+  </div>
+
+  <div class="rules">
+    <strong>Matching rules:</strong> Strong = MTY-XXX in open PR title, body, or head branch (including compound forms like MTY-376/377).
+    Weak = thematic/branch overlap only (conservative). In Progress / In Review used for PR context only (not in the focus list).
+  </div>
+
+  <div class="controls">
+    <label for="q" class="visually-hidden" style="position:absolute;left:-9999px">Search issues</label>
+    <input id="q" class="search" type="search" placeholder="Search by id, title, project, assignee, match…" autocomplete="off" autofocus/>
+    <div class="chips" role="group" ar
