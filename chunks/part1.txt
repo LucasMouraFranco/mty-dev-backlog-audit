@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MTY Dev Team — Backlog &amp; Todo Audit</title>
+<style>
+:root {
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --text: #1a1d23;
+  --muted: #5c6570;
+  --border: #e2e6eb;
+  --border-soft: #eceff3;
+  --link: #1a5fb4;
+  --shadow: 0 1px 2px rgba(16,24,40,.04), 0 1px 3px rgba(16,24,40,.06);
+  --todo: #1a7f37;
+  --todo-bg: #e8f7ed;
+  --backlog: #6e5a9e;
+  --backlog-bg: #f1ecfb;
+  --strong: #0d6e3f;
+  --strong-bg: #e6f6ee;
+  --strong-border: #9fd9b8;
+  --weak: #8a6200;
+  --weak-bg: #fff6db;
+  --weak-border: #f0d48a;
+  --none: #5c6570;
+  --none-bg: #f0f2f4;
+  --none-border: #d8dde3;
+  --chip: #eef0f3;
+  --chip-active: #1a1d23;
+  --chip-active-text: #fff;
+  --input-bg: #fff;
+  --focus: #1a5fb4;
+  --urgent: #b42318;
+  --high: #b54708;
+  --medium: #175cd3;
+  --low: #667085;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1217;
+    --surface: #1a1f27;
+    --text: #e6edf3;
+    --muted: #9aa4b2;
+    --border: #2d333b;
+    --border-soft: #252b33;
+    --link: #6cb6ff;
+    --shadow: 0 1px 2px rgba(0,0,0,.35);
+    --todo: #3fb950;
+    --todo-bg: #12261a;
+    --backlog: #b794f6;
+    --backlog-bg: #231a36;
+    --strong: #3fb950;
+    --strong-bg: #12261a;
+    --strong-border: #1f4a2e;
+    --weak: #d4a72c;
+    --weak-bg: #2a2108;
+    --weak-border: #4a3a10;
+    --none: #8b949e;
+    --none-bg: #21262d;
+    --none-border: #30363d;
+    --chip: #21262d;
+    --chip-active: #e6edf3;
+    --chip-active-text: #0f1217;
+    --input-bg: #12161c;
+    --focus: #6cb6ff;
+    --urgent: #f85149;
+    --high: #d29922;
+    --medium: #58a6ff;
+    --low: #8b949e;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+  margin: 0;
+  padding: 28px 20px 48px;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 6px;
+}
+h2 {
+  font-size: 1.05rem;
+  font-weight: 650;
+  margin: 0 0 12px;
+  letter-spacing: -0.01em;
+}
+.sub {
+  color: var(--muted);
+  margin: 0 0 22px;
+  font-size: 0.95rem;
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.muted { color: var(--muted); }
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.82em;
+  background: color-mix(in srgb, var(--border) 55%, transparent);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+/* Summary */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin-bottom: 18px;
+}
+@media (max-width: 800px) {
+  .stats { grid-template-columns: repeat(3, 1fr); }
+}
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 12px;
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+.stat .n { font-size: 1.65rem; font-weight: 700; line-height: 1.1; letter-spacing: -0.03em; }
+.stat .l { color: var(--muted); font-size: 0.78rem; margin-top: 4px; }
+
+.rules {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 20px;
+  box-shadow: var(--shadow);
+}
+.rules strong { color: var(--text); font-weight: 600; }
+
+/* Controls */
+.controls {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(8px);
+  padding: 10px 0 12px;
+  margin: 0 0 8px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.search {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--input-bg);
+  color: var(--text);
+  outline: none;
+  margin-bottom: 10px;
+}
+.search:focus {
+  border-color: var(--focus);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--focus) 22%, transparent);
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.chip {
+  border: 1px solid var(--border);
+  background: var(--chip);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 0.875rem;
+  font-weight: 550;
+  cursor: pointer;
+  line-height: 1.2;
+}
+.chip:hover { border-color: color-mix(in srgb, var(--text) 25%, var(--border)); }
+.chip.active {
+  background: var(--chip-active);
+  color: var(--chip-active-text);
+  border-color: var(--chip-active);
+}
+.chip .count {
+  opacity: 0.7;
+  font-weight: 500;
+  margin-left: 4px;
+}
+.chip.active .count { opacity: 0.85; }
+.result-count {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 4px 0 16px;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 28px;
+}
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.section-head h2 { margin: 0; }
+.section.hidden, .issue-card.hidden { display: none; }
+
+/* Cards */
+.issue-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 18px 14px;
+  margin-bottom: 12px;
+  box-shadow: var(--shadow);
+  border-left: 4px solid var(--none-border);
+}
+.issue-card.accent-strong { border-left-color: var(--strong); }
+.issue-card.accent-weak { border-left-color: var(--weak); }
+.issue-card.accent-none { border-left-color: var(--none-border); }
+.id-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.issue-id {
+  font-size: 1.15rem;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+.issue-id:hover { color: var(--link); }
+.issue-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 6px;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+.issue-title a { color: var(--text); }
+.issue-title a:hover { color: var(--link); }
+.meta {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+.pill {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 650;
+}
+.state-todo { background: var(--todo-bg); color: var(--todo); }
+.state-backlog { background: var(--backlog-bg); color: var(--backlog); }
+.pri-urgent { background: color-mix(in srgb, var(--urgent) 14%, transparent); color: var(--urgent); }
+.pri-high { background: color-mix(in srgb, var(--high) 14%, transparent); color: var(--high); }
+.pri-medium { background: color-mix(in srgb, var(--medium) 12%, transparent); color: var(--medium); }
+.pri-low { background: color-mix(in srgb, var(--low) 12%, transparent); color: var(--low); }
+.pri-none { background: var(--none-bg); color: var(--none); }
+
+.match-box {
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: var(--none-bg);
+  border: 1px solid var(--none-border);
+}
+.accent-strong .match-box { background: var(--strong-bg); border-color: var(--strong-border); }
+.accent-weak .match-box { background: var(--weak-bg); border-color: var(--weak-border); }
+.match-badge {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.match-strong { color: var(--strong); }
+.match-weak { color: var(--weak); }
+.match-none { color: var(--none); }
+.match-links {
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: baseline;
+  font-size: 0.9rem;
+}
+.pr-link { font-weight: 650; }
+.branch { color: var(--muted); font-size: 0.85em; }
+.match-note {
+  margin: 6px 0 0;
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+/* Hub PRs */
+.pr-list {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.pr-row {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 12px;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.pr-row:last-child { border-bottom: none; }
+.pr-num {
+  font-weight: 750;
+  font-size: 1rem;
+  padding-top: 2px;
+}
+.pr-title { font-weight: 600; margin-bottom: 4px; }
+.pr-meta { font-size: 0.85rem; color: var(--muted); margin-bottom: 6px; }
+.pr-ids { display: flex; flex-wrap: wrap; gap: 6px; }
+.id-in {
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--todo-bg);
+  color: var(--todo);
+}
+.id-out {
+  font-size: 0.8rem;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--none-bg);
+  color: var(--muted);
+}
+.other-list {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 8px 18px 12px;
+  margin: 0;
+  box-shadow: var(--shadow);
+}
+.other-list li { margin: 8px 0; font-size: 0.95rem; }
+.legend {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 10px 0 0;
+}
+footer {
+  margin-top: 28px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+}
+.empty {
+  color: var(--muted);
+  padding: 24px;
+  text-align: center;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>MTY Dev Team — Backlog &amp; Todo Audit</h1>
+  <p class="sub">Team: <strong>Dev Team</strong> (MTY) · Repo: <a href="https://github.com/MTY-Collision/MTY-Hub">MTY-Collision/MTY-Hub</a> · Generated <strong>2026-09-14 17:05 PT</strong><br>
+  Read-only audit — no Linear issues were marked Done.</p>
+
+  <div class="stats">
+    <div class="stat"><div class="n">68</div><div class="l">Backlog</div></div>
+    <div class="stat"><div class="n">22</div><div class="l">Todo</div></div>
+    <div class="stat"><div class="n">4</div><div class="l">Open PR may fix</div></div>
+    <div class="stat"><div class="n">18</div><div class="l">Possible / weak</div></div>
+    <div class="stat"><div class="n">68</div><div class="l">No open match</div></div>
+    <div class="stat"><div class="n">12</div><div class="l">Open Hub PRs</div></div>
+  </div>
+
+  <div class="rules">
+    <strong>Matching rules:</strong> Strong = MTY-XXX in open PR title, body, or head branch (including compound forms like MTY-376/377).
+    Weak = thematic/branch overlap only (conservative). In Progress / In Review used for PR context only (not in the focus list).
+  </div>
+
+  <div class="controls">
+    <label for="q" class="visually-hidden" style="position:absolute;left:-9999px">Search issues</label>
+    <input id="q" class="search" type="search" placeholder="Search by id, title, project, assignee, match…" autocomplete="off" autofocus/>
+    <div class="chips" role="group" aria-label="Filters">
+      <button type="button" class="chip active" data-filter="all">All <span class="count">90</span></button>
+      <button type="button" class="chip" data-filter="todo">Todo <span class="count">22</span></button>
+      <button type="button" class="chip" data-filter="backlog">Backlog <span class="count">68</span></button>
+      <button type="button" class="chip" data-filter="strong">Strong match <span class="count">4</span></button>
+      <button type="button" class="chip" data-filter="weak">Weak <span class="count">18</span></button>
+      <button type="button" class="chip" data-filter="none">No match <span class="count">68</span></button>
+    </div>
+  </div>
+  <p class="result-count" id="resultCount"></p>
+
+  <section class="section" id="needsAttention">
+    <div class="section-head">
+      <h2>Open PR may fix (4)</h2>
+    </div>
+    <div id="strongList">
+<article class="issue-card accent-strong "
+  data-id="MTY-380"
+  data-state="backlog"
+  data-match="strong"
+  data-search="mty-380 won modal chooses one estimate pdf per service and parses nothing estimate of record — id referenced in open pr title/body/branch: #657 open pr may fix backlog no priority #657 lucas/mty-381-estimate-of-record-project">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-380/won-modal-chooses-one-estimate-pdf-per-service-and-parses-nothing" target="_blank" rel="noopener">MTY-380</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-380/won-modal-chooses-one-estimate-pdf-per-service-and-parses-nothing" target="_blank" rel="noopener">Won modal chooses one estimate PDF per service and parses nothing</a></h3>
+  <p class="meta">Estimate of Record · — · 2026-09-02 11:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-strong">Open PR may fix</span>
+    <div class="match-links"><a class="pr-link" href="https://github.com/MTY-Collision/MTY-Hub/pull/657" target="_blank" rel="noopener">#657</a> <span class="branch">(lucas/mty-381-estimate-of-record-project)</span></div>
+    <p class="match-note">ID referenced in open PR title/body/branch: #657</p>
+  </div>
+</article>
+<article class="issue-card accent-strong "
+  data-id="MTY-377"
+  data-state="backlog"
+  data-match="strong"
+  data-search="mty-377 signed agreement and payment-type gates on mark won estimate of record — id referenced in open pr title/body/branch: #657 open pr may fix backlog no priority #657 lucas/mty-381-estimate-of-record-project">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-377/signed-agreement-and-payment-type-gates-on-mark-won" target="_blank" rel="noopener">MTY-377</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-377/signed-agreement-and-payment-type-gates-on-mark-won" target="_blank" rel="noopener">Signed Agreement and payment-type gates on Mark Won</a></h3>
+  <p class="meta">Estimate of Record · — · 2026-09-02 11:10 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-strong">Open PR may fix</span>
+    <div class="match-links"><a class="pr-link" href="https://github.com/MTY-Collision/MTY-Hub/pull/657" target="_blank" rel="noopener">#657</a> <span class="branch">(lucas/mty-381-estimate-of-record-project)</span></div>
+    <p class="match-note">ID referenced in open PR title/body/branch: #657</p>
+  </div>
+</article>
+<article class="issue-card accent-strong "
+  data-id="MTY-376"
+  data-state="backlog"
+  data-match="strong"
+  data-search="mty-376 mark won runs in one database transaction and a deal can have only one active job estimate of record — id referenced in open pr title/body/branch: #657 open pr may fix backlog no priority #657 lucas/mty-381-estimate-of-record-project">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-376/mark-won-runs-in-one-database-transaction-and-a-deal-can-have-only-one" target="_blank" rel="noopener">MTY-376</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-376/mark-won-runs-in-one-database-transaction-and-a-deal-can-have-only-one" target="_blank" rel="noopener">Mark Won runs in one database transaction and a deal can have only one active job</a></h3>
+  <p class="meta">Estimate of Record · — · 2026-09-02 11:10 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-strong">Open PR may fix</span>
+    <div class="match-links"><a class="pr-link" href="https://github.com/MTY-Collision/MTY-Hub/pull/657" target="_blank" rel="noopener">#657</a> <span class="branch">(lucas/mty-381-estimate-of-record-project)</span></div>
+    <p class="match-note">ID referenced in open PR title/body/branch: #657</p>
+  </div>
+</article>
+<article class="issue-card accent-strong "
+  data-id="MTY-379"
+  data-state="backlog"
+  data-match="strong"
+  data-search="mty-379 a won deal&#x27;s value, payment type, customer, and vehicle are read-only estimate of record — id referenced in open pr title/body/branch: #657 open pr may fix backlog no priority #657 lucas/mty-381-estimate-of-record-project">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-379/a-won-deals-value-payment-type-customer-and-vehicle-are-read-only" target="_blank" rel="noopener">MTY-379</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-379/a-won-deals-value-payment-type-customer-and-vehicle-are-read-only" target="_blank" rel="noopener">A won deal&#x27;s value, payment type, customer, and vehicle are read-only</a></h3>
+  <p class="meta">Estimate of Record · — · 2026-09-02 11:09 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-strong">Open PR may fix</span>
+    <div class="match-links"><a class="pr-link" href="https://github.com/MTY-Collision/MTY-Hub/pull/657" target="_blank" rel="noopener">#657</a> <span class="branch">(lucas/mty-381-estimate-of-record-project)</span></div>
+    <p class="match-note">ID referenced in open PR title/body/branch: #657</p>
+  </div>
+</article>
+    </div>
+  </section>
+
+  <section class="section" id="allIssues">
+    <div class="section-head">
+      <h2>All other issues (<span id="restTotal">86</span>)</h2>
+    </div>
+    <div id="restList">
+<article class="issue-card accent-weak "
+  data-id="MTY-403"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-403 build the new mobile supplies request shop features lucas moura supplies branches are mty-368, not 403 possible / weak todo urgent lucas/mty-368-inventory-bins-supplies  lucas/mty-368-supply-photos ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-403/build-the-new-mobile-supplies-request" target="_blank" rel="noopener">MTY-403</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-urgent">Urgent</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-403/build-the-new-mobile-supplies-request" target="_blank" rel="noopener">Build the new mobile supplies request</a></h3>
+  <p class="meta">Shop Features · Lucas Moura · 2026-09-14 16:41 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>lucas/mty-368-inventory-bins-supplies</code> <code>lucas/mty-368-supply-photos</code></div>
+    <p class="match-note">Supplies branches are MTY-368, not 403</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-399"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-399 move our workflows to the new emails email system lucas moura email inbox prototype (in progress) — workflow migration not clearly in an open pr possible / weak todo high prototype/email-inbox ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-399/move-our-workflows-to-the-new-emails" target="_blank" rel="noopener">MTY-399</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-399/move-our-workflows-to-the-new-emails" target="_blank" rel="noopener">Move our workflows to the new emails</a></h3>
+  <p class="meta">Email System · Lucas Moura · 2026-09-14 16:35 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>prototype/email-inbox</code></div>
+    <p class="match-note">Email inbox prototype (In Progress) — workflow migration not clearly in an open PR</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-398"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-398 create the new parts and insurance emails email system lucas moura email inbox prototype — mailbox creation is mostly ops possible / weak todo high prototype/email-inbox ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-398/create-the-new-parts-and-insurance-emails" target="_blank" rel="noopener">MTY-398</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-398/create-the-new-parts-and-insurance-emails" target="_blank" rel="noopener">Create the new parts and insurance emails</a></h3>
+  <p class="meta">Email System · Lucas Moura · 2026-09-14 16:33 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>prototype/email-inbox</code></div>
+    <p class="match-note">Email inbox prototype — mailbox creation is mostly ops</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-373"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-373 fix cursor workflow to use permissions fix roles permission system luciano lima rbac docs branch only possible / weak todo urgent lucianolima/docs-rbac-roles-permissions-reference ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-373/fix-cursor-workflow-to-use-permissions" target="_blank" rel="noopener">MTY-373</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-urgent">Urgent</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-373/fix-cursor-workflow-to-use-permissions" target="_blank" rel="noopener">Fix cursor workflow to use permissions</a></h3>
+  <p class="meta">Fix Roles Permission System · Luciano Lima · 2026-09-01 14:53 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>lucianolima/docs-rbac-roles-permissions-reference</code></div>
+    <p class="match-note">RBAC docs branch only</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-248"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-248 #11 dual-write from existing domain audit (movedealstage, timeline) mty hub audit system luciano lima audit duplicate fix branches; not clearly dual-write #11 possible / weak todo high cursor/fix-audit-trace-duplicate-8ca4  cursor/fix-audit-trace-duplicate-aac7 ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-248/11-dual-write-from-existing-domain-audit-movedealstage-timeline" target="_blank" rel="noopener">MTY-248</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-248/11-dual-write-from-existing-domain-audit-movedealstage-timeline" target="_blank" rel="noopener">#11 Dual-write from existing domain audit (moveDealStage, timeline)</a></h3>
+  <p class="meta">MTY Hub Audit System · Luciano Lima · 2026-08-20 13:19 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>cursor/fix-audit-trace-duplicate-8ca4</code> <code>cursor/fix-audit-trace-duplicate-aac7</code></div>
+    <p class="match-note">Audit duplicate fix branches; not clearly dual-write #11</p>
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-318"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-318 issue 9 — w10–w12 pilares de serviço (service ×9, insurance ×4, manufacturer) design website mty collision tiago  no open branch match todo medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-318/issue-9-w10-w12-pilares-de-servico-service-9-insurance-4-manufacturer" target="_blank" rel="noopener">MTY-318</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-318/issue-9-w10-w12-pilares-de-servico-service-9-insurance-4-manufacturer" target="_blank" rel="noopener">Issue 9 — W10–W12 Pilares de serviço (service ×9, insurance ×4, manufacturer)</a></h3>
+  <p class="meta">Design Website MTY Collision · Tiago · 2026-08-12 14:32 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-351"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-351 duplicated tasks — luciano lima sequence investigation branch may relate to duplicated tasks possible / weak todo no priority t3code/inspect-sequence-timezone-scheduling ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-351/duplicated-tasks" target="_blank" rel="noopener">MTY-351</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-351/duplicated-tasks" target="_blank" rel="noopener">Duplicated tasks</a></h3>
+  <p class="meta">— · Luciano Lima · 2026-08-10 14:57 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>t3code/inspect-sequence-timezone-scheduling</code></div>
+    <p class="match-note">Sequence investigation branch may relate to duplicated tasks</p>
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-320"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-320 issue 11 — w13–w15 editoriais (guia, apoio ×3, legal ×3) design website mty collision tiago  no open branch match todo low ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-320/issue-11-w13-w15-editoriais-guia-apoio-3-legal-3" target="_blank" rel="noopener">MTY-320</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-low">Low</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-320/issue-11-w13-w15-editoriais-guia-apoio-3-legal-3" target="_blank" rel="noopener">Issue 11 — W13–W15 Editoriais (guia, apoio ×3, legal ×3)</a></h3>
+  <p class="meta">Design Website MTY Collision · Tiago · 2026-07-28 13:01 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-321"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-321 issue 12 — w17 404 + revisão final design website mty collision tiago  no open branch match todo low ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-321/issue-12-w17-404-revisao-final" target="_blank" rel="noopener">MTY-321</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-low">Low</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-321/issue-12-w17-404-revisao-final" target="_blank" rel="noopener">Issue 12 — W17 404 + revisão final</a></h3>
+  <p class="meta">Design Website MTY Collision · Tiago · 2026-07-28 13:01 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-319"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-319 issue 10 — w3–w5 institucionais (about, contact, gallery) design website mty collision tiago  no open branch match todo low ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-319/issue-10-w3-w5-institucionais-about-contact-gallery" target="_blank" rel="noopener">MTY-319</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-low">Low</span>
+    </div>
+  </div>
+  <h3 class="i
