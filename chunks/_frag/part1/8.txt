@@ -1,0 +1,9 @@
+allery) design website mty collision tiago  no open branch match todo low ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-319/issue-10-w3-w5-institucionais-about-contact-gallery" target="_blank" rel="noopener">MTY-319</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-low">Low</span>
+    </div>
+  </div>
+  <h3 class="i
