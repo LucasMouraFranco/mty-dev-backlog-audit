@@ -1,0 +1,53 @@
+ia-label="Filters">
+      <button type="button" class="chip active" data-filter="all">All <span class="count">90</span></button>
+      <button type="button" class="chip" data-filter="todo">Todo <span class="count">22</span></button>
+      <button type="button" class="chip" data-filter="backlog">Backlog <span class="count">68</span></button>
+      <button type="button" class="chip" data-filter="strong">Strong match <span class="count">4</span></button>
+      <button type="button" class="chip" data-filter="weak">Weak <span class="count">18</span></button>
+      <button type="button" class="chip" data-filter="none">No match <span class="count">68</span></button>
+    </div>
+  </div>
+  <p class="result-count" id="resultCount"></p>
+
+  <section class="section" id="needsAttention">
+    <div class="section-head">
+      <h2>Open PR may fix (4)</h2>
+    </div>
+    <div id="strongList">
+<article class="issue-card accent-strong "
+  data-id="MTY-380"
+  data-state="backlog"
+  data-match="strong"
+  data-search="mty-380 won modal chooses one estimate pdf per service and parses nothing estimate of record — id referenced in open pr title/body/branch: #657 open pr may fix backlog no priority #657 lucas/mty-381-estimate-of-record-project">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-380/won-modal-chooses-one-estimate-pdf-per-service-and-parses-nothing" target="_blank" rel="noopener">MTY-380</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-380/won-modal-chooses-one-estimate-pdf-per-service-and-parses-nothing" target="_blank" rel="noopener">Won modal chooses one estimate PDF per service and parses nothing</a></h3>
+  <p class="meta">Estimate of Record · — · 2026-09-02 11:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-strong">Open PR may fix</span>
+    <div class="match-links"><a class="pr-link" href="https://github.com/MTY-Collision/MTY-Hub/pull/657" target="_blank" rel="noopener">#657</a> <span class="branch">(lucas/mty-381-estimate-of-record-project)</span></div>
+    <p class="match-note">ID referenced in open PR title/body/branch: #657</p>
+  </div>
+</article>
+<article class="issue-card accent-strong "
+  data-id="MTY-377"
+  data-state="backlog"
+  data-match="strong"
+  data-search="mty-377 signed agreement and payment-type gates on mark won estimate of record — id referenced in open pr title/body/branch: #657 open pr may fix backlog no priority #657 lucas/mty-381-estimate-of-record-project">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-377/signed-agreement-and-payment-type-gates-on-mark-won" target="_blank" rel="noopener">MTY-377</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-377/signed-agreement-and-payment-type-gates-on-mark-won" target="_blank" rel="noopener">Signed Agreement and payment-type gates on Mark Won</a></h3>
+  <p class="meta">Estimate of Record · — · 2026-09-02 11:10 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-strong">Open PR may fix</span>
+    <div class="match-links"><a class="pr-link" href="https://github.com/MTY-Co
