@@ -1,0 +1,56 @@
+</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-373"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-373 fix cursor workflow to use permissions fix roles permission system luciano lima rbac docs branch only possible / weak todo urgent lucianolima/docs-rbac-roles-permissions-reference ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-373/fix-cursor-workflow-to-use-permissions" target="_blank" rel="noopener">MTY-373</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-urgent">Urgent</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-373/fix-cursor-workflow-to-use-permissions" target="_blank" rel="noopener">Fix cursor workflow to use permissions</a></h3>
+  <p class="meta">Fix Roles Permission System · Luciano Lima · 2026-09-01 14:53 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>lucianolima/docs-rbac-roles-permissions-reference</code></div>
+    <p class="match-note">RBAC docs branch only</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-248"
+  data-state="todo"
+  data-match="weak"
+  data-search="mty-248 #11 dual-write from existing domain audit (movedealstage, timeline) mty hub audit system luciano lima audit duplicate fix branches; not clearly dual-write #11 possible / weak todo high cursor/fix-audit-trace-duplicate-8ca4  cursor/fix-audit-trace-duplicate-aac7 ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-248/11-dual-write-from-existing-domain-audit-movedealstage-timeline" target="_blank" rel="noopener">MTY-248</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-248/11-dual-write-from-existing-domain-audit-movedealstage-timeline" target="_blank" rel="noopener">#11 Dual-write from existing domain audit (moveDealStage, timeline)</a></h3>
+  <p class="meta">MTY Hub Audit System · Luciano Lima · 2026-08-20 13:19 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>cursor/fix-audit-trace-duplicate-8ca4</code> <code>cursor/fix-audit-trace-duplicate-aac7</code></div>
+    <p class="match-note">Audit duplicate fix branches; not clearly dual-write #11</p>
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-318"
+  data-state="todo"
+  data-match="none"
+  data-search="mty-318 issue 9 — w10–w12 pilares de serviço (service ×9, insurance ×4, manufacturer) design website mty collision tiago  no open branch match todo medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-318/issue-9-w10-w12-pilares-de-servico-service-9-insurance-4-manufacturer" target="_blank" rel="noopener">MTY-318</a>
+      <span class="pill state-todo">Todo</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-318/issue-9-w10-w12-pilares-de-servico-service-9-insurance-4-manufacturer" target="_blank" rel="noopener">Issue 9 — W10–W12 Pilares de serviço (service ×9, ins
