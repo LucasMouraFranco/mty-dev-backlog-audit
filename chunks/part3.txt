@@ -1,0 +1,620 @@
+ tools · Lucas Moura · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-192"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-192 build run mty on mty hub, retire paid tools luciano lima  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-192/build" target="_blank" rel="noopener">MTY-192</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-192/build" target="_blank" rel="noopener">Build</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Luciano Lima · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-191"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-191 design run mty on mty hub, retire paid tools tiago  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-191/design" target="_blank" rel="noopener">MTY-191</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-191/design" target="_blank" rel="noopener">Design</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-190"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-190 logic run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-190/logic" target="_blank" rel="noopener">MTY-190</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-190/logic" target="_blank" rel="noopener">Logic</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-189"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-189 build run mty on mty hub, retire paid tools luciano lima  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-189/build" target="_blank" rel="noopener">MTY-189</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-189/build" target="_blank" rel="noopener">Build</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Luciano Lima · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-188"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-188 design run mty on mty hub, retire paid tools tiago  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-188/design" target="_blank" rel="noopener">MTY-188</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-188/design" target="_blank" rel="noopener">Design</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-187"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-187 logic run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-187/logic" target="_blank" rel="noopener">MTY-187</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-187/logic" target="_blank" rel="noopener">Logic</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-186"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-186 build run mty on mty hub, retire paid tools luciano lima  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-186/build" target="_blank" rel="noopener">MTY-186</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-186/build" target="_blank" rel="noopener">Build</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Luciano Lima · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-185"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-185 design run mty on mty hub, retire paid tools tiago  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-185/design" target="_blank" rel="noopener">MTY-185</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-185/design" target="_blank" rel="noopener">Design</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-184"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-184 logic run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-184/logic" target="_blank" rel="noopener">MTY-184</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-184/logic" target="_blank" rel="noopener">Logic</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-183"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-183 build run mty on mty hub, retire paid tools luciano lima  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-183/build" target="_blank" rel="noopener">MTY-183</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-183/build" target="_blank" rel="noopener">Build</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Luciano Lima · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-182"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-182 design run mty on mty hub, retire paid tools tiago  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-182/design" target="_blank" rel="noopener">MTY-182</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-182/design" target="_blank" rel="noopener">Design</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-181"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-181 logic run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-181/logic" target="_blank" rel="noopener">MTY-181</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-181/logic" target="_blank" rel="noopener">Logic</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-180"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-180 build run mty on mty hub, retire paid tools luciano lima  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-180/build" target="_blank" rel="noopener">MTY-180</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-180/build" target="_blank" rel="noopener">Build</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Luciano Lima · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-179"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-179 design run mty on mty hub, retire paid tools tiago  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-179/design" target="_blank" rel="noopener">MTY-179</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-179/design" target="_blank" rel="noopener">Design</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-178"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-178 logic run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-178/logic" target="_blank" rel="noopener">MTY-178</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-178/logic" target="_blank" rel="noopener">Logic</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-163"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-163 build run mty on mty hub, retire paid tools luciano lima  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-163/build" target="_blank" rel="noopener">MTY-163</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-163/build" target="_blank" rel="noopener">Build</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Luciano Lima · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-162"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-162 design run mty on mty hub, retire paid tools tiago  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-162/design" target="_blank" rel="noopener">MTY-162</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-162/design" target="_blank" rel="noopener">Design</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-161"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-161 logic run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-161/logic" target="_blank" rel="noopener">MTY-161</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-161/logic" target="_blank" rel="noopener">Logic</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-154"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-154 build run mty on mty hub, retire paid tools luciano lima  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-154/build" target="_blank" rel="noopener">MTY-154</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-154/build" target="_blank" rel="noopener">Build</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Luciano Lima · 2026-06-30 13:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-226"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-226 change status on sequence run mty on mty hub, retire paid tools —  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-226/change-status-on-sequence" target="_blank" rel="noopener">MTY-226</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-226/change-status-on-sequence" target="_blank" rel="noopener">Change Status on sequence</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · — · 2026-06-29 13:14 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-225"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-225 end of the day report run mty on mty hub, retire paid tools —  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-225/end-of-the-day-report" target="_blank" rel="noopener">MTY-225</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-225/end-of-the-day-report" target="_blank" rel="noopener">End of the day report</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · — · 2026-06-29 13:13 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-224"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-224 add a reset button on the search run mty on mty hub, retire paid tools tiago  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-224/add-a-reset-button-on-the-search" target="_blank" rel="noopener">MTY-224</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-224/add-a-reset-button-on-the-search" target="_blank" rel="noopener">add a reset button on the search</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-29 13:08 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-223"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-223 archive jobs and delete for admins run mty on mty hub, retire paid tools —  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-223/archive-jobs-and-delete-for-admins" target="_blank" rel="noopener">MTY-223</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-223/archive-jobs-and-delete-for-admins" target="_blank" rel="noopener">Archive jobs and delete for admins</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · — · 2026-06-29 12:50 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-207"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-207 ui/ux redesign - vehicles details run mty on mty hub, retire paid tools tiago  no open branch match backlog medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-207/uiux-redesign-vehicles-details" target="_blank" rel="noopener">MTY-207</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-207/uiux-redesign-vehicles-details" target="_blank" rel="noopener">UI/UX Redesign - Vehicles Details</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-17 14:32 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-206"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-206 ui/ux redesign - customer details run mty on mty hub, retire paid tools tiago  no open branch match backlog medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-206/uiux-redesign-customer-details" target="_blank" rel="noopener">MTY-206</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-206/uiux-redesign-customer-details" target="_blank" rel="noopener">UI/UX Redesign - Customer Details</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-17 14:30 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-202"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-202 ui/ux redesign - tasks tab run mty on mty hub, retire paid tools tiago  no open branch match backlog medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-202/uiux-redesign-tasks-tab" target="_blank" rel="noopener">MTY-202</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-202/uiux-redesign-tasks-tab" target="_blank" rel="noopener">UI/UX Redesign - Tasks Tab</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-17 14:30 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-200"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-200 ui/ux redesign - lists tab run mty on mty hub, retire paid tools tiago  no open branch match backlog medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-200/uiux-redesign-lists-tab" target="_blank" rel="noopener">MTY-200</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-200/uiux-redesign-lists-tab" target="_blank" rel="noopener">UI/UX Redesign - Lists Tab</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-17 14:30 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-203"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-203 ui/ux redesign - settings tab run mty on mty hub, retire paid tools tiago  no open branch match backlog low ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-203/uiux-redesign-settings-tab" target="_blank" rel="noopener">MTY-203</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-low">Low</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-203/uiux-redesign-settings-tab" target="_blank" rel="noopener">UI/UX Redesign - Settings Tab</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-17 14:30 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-201"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-201 ui/ux redesign - dashboard run mty on mty hub, retire paid tools tiago  no open branch match backlog low ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-201/uiux-redesign-dashboard" target="_blank" rel="noopener">MTY-201</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-low">Low</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-201/uiux-redesign-dashboard" target="_blank" rel="noopener">UI/UX Redesign - Dashboard</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Tiago · 2026-06-17 14:30 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-171"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-171 finance tracking &amp; syncing run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-171/finance-tracking-and-syncing" target="_blank" rel="noopener">MTY-171</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-171/finance-tracking-and-syncing" target="_blank" rel="noopener">Finance tracking &amp; syncing</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-12 16:15 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-170"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-170 shopmonkey integration run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-170/shopmonkey-integration" target="_blank" rel="noopener">MTY-170</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-170/shopmonkey-integration" target="_blank" rel="noopener">Shopm
