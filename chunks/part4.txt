@@ -1,0 +1,552 @@
+onkey integration</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-12 16:15 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-169"
+  data-state="backlog"
+  data-match="weak"
+  data-search="mty-169 email system run mty on mty hub, retire paid tools lucas moura email system epic vs inbox prototype possible / weak backlog no priority prototype/email-inbox ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-169/email-system" target="_blank" rel="noopener">MTY-169</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-169/email-system" target="_blank" rel="noopener">Email system</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-12 16:15 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><code>prototype/email-inbox</code></div>
+    <p class="match-note">Email system epic vs inbox prototype</p>
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-168"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-168 dashboard improvements run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-168/dashboard-improvements" target="_blank" rel="noopener">MTY-168</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-168/dashboard-improvements" target="_blank" rel="noopener">Dashboard improvements</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-12 16:15 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-167"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-167 task view improvements run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-167/task-view-improvements" target="_blank" rel="noopener">MTY-167</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-167/task-view-improvements" target="_blank" rel="noopener">Task view improvements</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-12 16:14 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-177"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-177 staff performance run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-177/staff-performance" target="_blank" rel="noopener">MTY-177</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-177/staff-performance" target="_blank" rel="noopener">Staff performance</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-12 16:14 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-176"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-176 training system run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-176/training-system" target="_blank" rel="noopener">MTY-176</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-176/training-system" target="_blank" rel="noopener">Training system</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-12 16:14 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-175"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-175 clock in/out run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-175/clock-inout" target="_blank" rel="noopener">MTY-175</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-175/clock-inout" target="_blank" rel="noopener">Clock in/out</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-12 16:14 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-174"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-174 blue-collar app run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-174/blue-collar-app" target="_blank" rel="noopener">MTY-174</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-174/blue-collar-app" target="_blank" rel="noopener">Blue-collar app</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-12 16:14 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-172"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-172 invoice uploader run mty on mty hub, retire paid tools lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-172/invoice-uploader" target="_blank" rel="noopener">MTY-172</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-172/invoice-uploader" target="_blank" rel="noopener">Invoice uploader</a></h3>
+  <p class="meta">Run MTY on MTY Hub, retire paid tools · Lucas Moura · 2026-06-12 16:14 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-107"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-107 date is changing on its own (27 → 28) — —  no open branch match backlog medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-107/date-is-changing-on-its-own-27-28" target="_blank" rel="noopener">MTY-107</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-107/date-is-changing-on-its-own-27-28" target="_blank" rel="noopener">Date is changing on its own (27 → 28)</a></h3>
+  <p class="meta">— · — · 2026-05-11 17:00 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-95"
+  data-state="backlog"
+  data-match="weak"
+  data-search="mty-95 move delivery transports to pre-scan stage — lucas moura delivery→pre-scan automation vs transport check-in — weak thematic only possible / weak backlog medium #679 t3code/add-transport-role-flow">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-95/move-delivery-transports-to-pre-scan-stage" target="_blank" rel="noopener">MTY-95</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-95/move-delivery-transports-to-pre-scan-stage" target="_blank" rel="noopener">Move delivery transports to pre-scan stage</a></h3>
+  <p class="meta">— · Lucas Moura · 2026-04-28 16:02 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><a class="pr-link" href="https://github.com/MTY-Collision/MTY-Hub/pull/679" target="_blank" rel="noopener">#679</a> <span class="branch">(t3code/add-transport-role-flow)</span></div>
+    <p class="match-note">Delivery→pre-scan automation vs transport check-in — weak thematic only</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-94"
+  data-state="backlog"
+  data-match="weak"
+  data-search="mty-94 add driver transport acceptance and delivery update page — lucas moura driver transport page vs mobile transport check-in — related domain, different scope possible / weak backlog medium #679 t3code/add-transport-role-flow">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-94/add-driver-transport-acceptance-and-delivery-update-page" target="_blank" rel="noopener">MTY-94</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-94/add-driver-transport-acceptance-and-delivery-update-page" target="_blank" rel="noopener">Add driver transport acceptance and delivery update page</a></h3>
+  <p class="meta">— · Lucas Moura · 2026-04-28 16:01 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><a class="pr-link" href="https://github.com/MTY-Collision/MTY-Hub/pull/679" target="_blank" rel="noopener">#679</a> <span class="branch">(t3code/add-transport-role-flow)</span></div>
+    <p class="match-note">Driver transport page vs mobile transport check-in — related domain, different scope</p>
+  </div>
+</article>
+<article class="issue-card accent-weak "
+  data-id="MTY-93"
+  data-state="backlog"
+  data-match="weak"
+  data-search="mty-93 notify drivers by openphone sms when assigned a transport — lucas moura sms notify drivers vs transport role flow — weak thematic only possible / weak backlog medium #679 t3code/add-transport-role-flow">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-93/notify-drivers-by-openphone-sms-when-assigned-a-transport" target="_blank" rel="noopener">MTY-93</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-93/notify-drivers-by-openphone-sms-when-assigned-a-transport" target="_blank" rel="noopener">Notify drivers by OpenPhone SMS when assigned a transport</a></h3>
+  <p class="meta">— · Lucas Moura · 2026-04-28 16:01 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-weak">Possible / weak</span>
+    <div class="match-links"><a class="pr-link" href="https://github.com/MTY-Collision/MTY-Hub/pull/679" target="_blank" rel="noopener">#679</a> <span class="branch">(t3code/add-transport-role-flow)</span></div>
+    <p class="match-note">SMS notify drivers vs transport role flow — weak thematic only</p>
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-92"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-92 allow move to transport after intake checklist is complete — lucas moura  no open branch match backlog medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-92/allow-move-to-transport-after-intake-checklist-is-complete" target="_blank" rel="noopener">MTY-92</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-92/allow-move-to-transport-after-intake-checklist-is-complete" target="_blank" rel="noopener">Allow move to transport after intake checklist is complete</a></h3>
+  <p class="meta">— · Lucas Moura · 2026-04-28 16:00 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-90"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-90 add customer sign-off email for intake photos — lucas moura  no open branch match backlog medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-90/add-customer-sign-off-email-for-intake-photos" target="_blank" rel="noopener">MTY-90</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-90/add-customer-sign-off-email-for-intake-photos" target="_blank" rel="noopener">Add customer sign-off email for intake photos</a></h3>
+  <p class="meta">— · Lucas Moura · 2026-04-28 15:56 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-89"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-89 require deal media upload before leaving car intake — lucas moura  no open branch match backlog medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-89/require-deal-media-upload-before-leaving-car-intake" target="_blank" rel="noopener">MTY-89</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-89/require-deal-media-upload-before-leaving-car-intake" target="_blank" rel="noopener">Require deal media upload before leaving car intake</a></h3>
+  <p class="meta">— · Lucas Moura · 2026-04-28 15:55 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-88"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-88 send slack notification on every new deal creation with mty hub link — lucas moura  no open branch match backlog medium ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-88/send-slack-notification-on-every-new-deal-creation-with-mty-hub-link" target="_blank" rel="noopener">MTY-88</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-medium">Medium</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-88/send-slack-notification-on-every-new-deal-creation-with-mty-hub-link" target="_blank" rel="noopener">Send Slack notification on every new deal creation with MTY Hub link</a></h3>
+  <p class="meta">— · Lucas Moura · 2026-04-28 15:52 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-71"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-71 send new customer form submissions to database and slack — —  no open branch match backlog high ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-71/send-new-customer-form-submissions-to-database-and-slack" target="_blank" rel="noopener">MTY-71</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-high">High</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-71/send-new-customer-form-submissions-to-database-and-slack" target="_blank" rel="noopener">Send new customer form submissions to database and Slack</a></h3>
+  <p class="meta">— · — · 2026-04-28 11:50 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-55"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-55 create a screen for all purchases — lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-55/create-a-screen-for-all-purchases" target="_blank" rel="noopener">MTY-55</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-55/create-a-screen-for-all-purchases" target="_blank" rel="noopener">Create a screen for all purchases</a></h3>
+  <p class="meta">— · Lucas Moura · 2026-04-22 10:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+<article class="issue-card accent-none "
+  data-id="MTY-54"
+  data-state="backlog"
+  data-match="none"
+  data-search="mty-54 add purchase request support to the workflow — lucas moura  no open branch match backlog no priority ">
+  <div class="card-head">
+    <div class="id-block">
+      <a class="issue-id" href="https://linear.app/mty-collision/issue/MTY-54/add-purchase-request-support-to-the-workflow" target="_blank" rel="noopener">MTY-54</a>
+      <span class="pill state-backlog">Backlog</span>
+      <span class="pill pri-none">No priority</span>
+    </div>
+  </div>
+  <h3 class="issue-title"><a href="https://linear.app/mty-collision/issue/MTY-54/add-purchase-request-support-to-the-workflow" target="_blank" rel="noopener">Add purchase request support to the workflow</a></h3>
+  <p class="meta">— · Lucas Moura · 2026-04-22 10:12 PT</p>
+  <div class="match-box">
+    <span class="match-badge match-none">No open branch match</span>
+    
+    
+  </div>
+</article>
+    </div>
+    <div class="empty hidden" id="emptyState">No issues match this search or filter.</div>
+  </section>
+
+  <section class="section" id="hubPrs">
+    <h2>Open Hub PRs that mention an MTY id</h2>
+    <div class="pr-list">
+<div class="pr-row">
+  <a class="pr-num" href="https://github.com/MTY-Collision/MTY-Hub/pull/704" target="_blank" rel="noopener">#704</a>
+  <div class="pr-body">
+    <div class="pr-title">MTY-86 - Add appointment variables and match customer email previews</div>
+    <div class="pr-meta"><code>t3code/schedule-message-template-variables → main</code> · 2026-09-14 16:56 PT</div>
+    <div class="pr-ids"><span class="id-out">MTY-86</span></div>
+  </div>
+</div>
+<div class="pr-row">
+  <a class="pr-num" href="https://github.com/MTY-Collision/MTY-Hub/pull/679" target="_blank" rel="noopener">#679</a>
+  <div class="pr-body">
+    <div class="pr-title">MTY-395 - Add mobile transport check-in with 360° photos and Transport role</div>
+    <div class="pr-meta"><code>t3code/add-transport-role-flow → main</code> · 2026-09-12 11:40 PT</div>
+    <div class="pr-ids"><span class="id-out">MTY-391</span> <span class="id-out">MTY-395</span></div>
+  </div>
+</div>
+<div class="pr-row">
+  <a class="pr-num" href="https://github.com/MTY-Collision/MTY-Hub/pull/657" target="_blank" rel="noopener">#657</a>
+  <div class="pr-body">
+    <div class="pr-title">Estimate of record: Estimate Versions as source of truth (MTY-381 → MTY-387)</div>
+    <div class="pr-meta"><code>lucas/mty-381-estimate-of-record-project → main</code> · 2026-09-08 16:53 PT</div>
+    <div class="pr-ids"><span class="id-out">MTY-374</span> <span class="id-in">MTY-376</span> <span class="id-in">MTY-377</span> <span class="id-in">MTY-379</span> <span class="id-in">MTY-380</span> <span class="id-out">MTY-381</span> <span class="id-out">MTY-382</span> <span class="id-out">MTY-383</span> <span class="id-out">MTY-384</span> <span class="id-out">MTY-385</span> <span class="id-out">MTY-386</span> <span class="id-out">MTY-387</span></div>
+  </div>
+</div>
+    </div>
+    <p class="legend">Bold IDs are currently Backlog/Todo; muted IDs are In Progress / In Review / other.</p>
+  </section>
+
+  <section class="section" id="otherPrs">
+    <h2>Other open Hub PRs (no MTY id)</h2>
+    <ul class="other-list">
+<li><a href="https://github.com/MTY-Collision/MTY-Hub/pull/697" target="_blank" rel="noopener">#697</a> Work Order design adjustments <span class="muted">(work-order-design-adjustments)</span></li>
+<li><a href="https://github.com/MTY-Collision/MTY-Hub/pull/695" target="_blank" rel="noopener">#695</a> Technician mobile: pinch zoom, Figma gallery viewer, item sheet, smaller dots <span class="muted">(cursor/technician-mobile-gestures)</span></li>
+<li><a href="https://github.com/MTY-Collision/MTY-Hub/pull/690" target="_blank" rel="noopener">#690</a> feat(work-order): technician mobile service-type review <span class="muted">(cursor/technician-mobile-review-service-edb3)</span></li>
+<li><a href="https://github.com/MTY-Collision/MTY-Hub/pull/678" target="_blank" rel="noopener">#678</a> Surface why customer (and vehicle) save failed on unique collisions <span class="muted">(cursor/customer-save-unique-error-de53)</span></li>
+<li><a href="https://github.com/MTY-Collision/MTY-Hub/pull/671" target="_blank" rel="noopener">#671</a> Technician mobile work order and job-detail-only access <span class="muted">(cursor/technician-mobile-work-order-b315)</span></li>
+<li><a href="https://github.com/MTY-Collision/MTY-Hub/pull/645" target="_blank" rel="noopener">#645</a> Fix Mark Won stage lookup after job-stages admin reorder <span class="muted">(cursor/win-deal-stage-name-match-ae60)</span></li>
+<li><a href="https://github.com/MTY-Collision/MTY-Hub/pull/577" target="_blank" rel="noopener">#577</a> E2E speed — Phase 3: fixture isolation and a 3-shard matrix <span class="muted">(optimize-ci-phase3)</span></li>
+<li><a href="https://github.com/MTY-Collision/MTY-Hub/pull/576" target="_blank" rel="noopener">#576</a> E2E speed — Phase 2: service-role test setup instead of UI-driven setup <span class="muted">(optimize-ci-phase2)</span></li>
+<li><a href="https://github.com/MTY-Collision/MTY-Hub/pull/574" target="_blank" rel="noopener">#574</a> E2E speed — Phase 1: overlap Supabase start, trim containers, add run guards <span class="muted">(optimize-ci)</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    Sources: Linear MCP list_issues (Dev Team, Backlog + Todo; In Progress / In Review for context) ·
+    GitHub MCP list_pull_requests / search_pull_requests / list_branches on MTY-Hub ·
+    Organization Team (ORG) excluded.
+  </footer>
+</div>
+<script>
+(function () {
+  const q = document.getElementById('q');
+  const chips = Array.from(document.querySelectorAll('.chip'));
+  const cards = Array.from(document.querySelectorAll('.issue-card'));
+  const needsAttention = document.getElementById('needsAttention');
+  const allIssues = document.getElementById('allIssues');
+  const emptyState = document.getElementById('emptyState');
+  const resultCount = document.getElementById('resultCount');
+  const restTotal = document.getElementById('restTotal');
+  let filter = 'all';
+
+  function matchesFilter(card) {
+    const state = card.dataset.state;
+    const match = card.dataset.match;
+    if (filter === 'all') return true;
+    if (filter === 'todo') return state === 'todo';
+    if (filter === 'backlog') return state === 'backlog';
+    if (filter === 'strong') return match === 'strong';
+    if (filter === 'weak') return match === 'weak';
+    if (filter === 'none') return match === 'none';
+    return true;
+  }
+
+  function matchesSearch(card) {
+    const term = q.value.trim().toLowerCase();
+    if (!term) return true;
+    return (card.dataset.search || '').includes(term);
+  }
+
+  function apply() {
+    let visible = 0;
+    let strongVisible = 0;
+    let restVisible = 0;
+    cards.forEach(card => {
+      const ok = matchesFilter(card) && matchesSearch(card);
+      card.classList.toggle('hidden', !ok);
+      if (ok) {
+        visible++;
+        if (card.dataset.match === 'strong' && card.closest('#strongList')) strongVisible++;
+        if (card.closest('#restList')) restVisible++;
+      }
+    });
+    // Show/hide sections
+    const showStrongSection = filter === 'all' || filter === 'strong' ||
+      (['todo','backlog'].includes(filter) && strongVisible > 0) ||
+      (q.value.trim() !== '' && strongVisible > 0);
+    // For weak/none filters, hide needs-attention section
+    if (filter === 'weak' || filter === 'none') {
+      needsAttention.classList.add('hidden');
+    } else if (filter === 'strong') {
+      needsAttention.classList.remove('hidden');
+      allIssues.classList.add('hidden');
+    } else if (filter === 'todo' || filter === 'backlog') {
+      needsAttention.classList.toggle('hidden', strongVisible === 0);
+      allIssues.classList.toggle('hidden', restVisible === 0 && strongVisible > 0 && false);
+      allIssues.classList.remove('hidden');
+      if (restVisible === 0 && strongVisible === 0) allIssues.classList.add('hidden');
+    } else {
+      // all
+      needsAttention.classList.remove('hidden');
+      allIssues.classList.remove('hidden');
+    }
+    if (filter === 'strong') {
+      // already handled
+    } else if (filter === 'weak' || filter === 'none') {
+      allIssues.classList.remove('hidden');
+    }
+
+    // When searching, hide empty sections
+    if (q.value.trim()) {
+      needsAttention.classList.toggle('hidden', strongVisible === 0);
+      if (filter !== 'strong') {
+        allIssues.classList.toggle('hidden', restVisible === 0);
+      }
+    }
+
+    emptyState.classList.toggle('hidden', visible !== 0);
+    if (visible === 0) {
+      allIssues.classList.remove('hidden');
+      needsAttention.classList.add('hidden');
+    }
+
+    const label = q.value.trim() || filter !== 'all'
+      ? `Showing ${visible} of 90 issues`
+      : `90 issues`;
+    resultCount.textContent = label;
+    if (restTotal) restTotal.textContent = String(restVisible || 86);
+    // Keep static count label for section when all+no search
+    if (!q.value.trim() && filter === 'all') {
+      restTotal.textContent = '86';
+    }
+  }
+
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      filter = chip.dataset.filter;
+      apply();
+    });
+  });
+  q.addEventListener('input', apply);
+  apply();
+})();
+</script>
+</body>
+</html>
